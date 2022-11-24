@@ -1,0 +1,186 @@
+/* teacher 师资队伍 css */
+
+.main_area {
+  position: relative;
+  /* height: 600px; */
+}
+
+/* 页面板块名 */
+
+.item_title {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: #fff;
+  /* background-color: rgba(0, 47, 123, 0.6); */
+  background-color: rgba(241, 160, 19, 0.6);
+}
+
+/* tab栏 */
+
+.tab {
+  position: relative;
+}
+
+/* .item .icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+.tab_list {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: 470px;
+  background-color: #ebf4ff;
+  /* background-color: rgba(200, 127, 0, 0.6); */
+}
+
+.tab_list ul {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.tab_list ul li {
+  width: 260px;
+  height: 60px;
+  background-color: #dee2eb;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+  border-left: 4px solid #002f7b;
+  transition: all 0.5s;
+}
+
+.tab_list ul li:hover {
+  background-color: #002f7b;
+  color: #fff;
+}
+
+/* .tab_list ul li::after {
+    content: '\e903';
+    position: absolute;
+    right: 10px;
+    font-family: 'icomoon';
+    font-size: 25px;
+} */
+
+.tab_list ul .current {
+  background-color: #002f7b;
+  color: #fff;
+}
+
+.tab_icon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+
+.tab_icon img {
+  width: 100px;
+  height: 100px;
+  transition: all 1s;
+}
+
+.tab_icon img:hover {
+  /* 顺时针旋转360度并放大为原来的1.1倍 */
+  transform: rotate(360deg) scale(1.1);
+}
+
+.tab_con {
+  float: right;
+  margin-left: 20px;
+  width: 1100px;
+  /* height: 500px; */
+}
+
+.item {
+  display: none;
+}
+
+.item .tab_con_title {
+  width: 1100px;
+  height: 70px;
+  border-bottom: 2px solid #002f7b;
+  font-size: 25px;
+  line-height: 70px;
+  color: #002f7b;
+}
+
+.item .tab_con_info {
+  padding-top: 30px;
+  font-size: 19px;
+  background-color: #ecf2f6;
+  padding-bottom: 20px;
+}
+
+.tab_con_info_conten {
+  width: 100%;
+}
+
+.tab_con_info_conten p {
+  text-align: justify;
+  line-height: 28px;
+  margin-top: 10px;
+  font-size: 19px;
+  text-indent: 2em;
+  margin-bottom: 15px;
+  padding: 0 30px;
+}
+
+/* 名师风采 */
+
+.tab_con_info_ms {
+  padding: 10px 40px;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  color: #666;
+  line-height: 22px;
+}
+
+.ms1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 14px;
+}
+
+.ms1 img {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.ms1 h3 {
+  text-indent: 2em;
+  color: black;
+  font-size: 20px;
+}
+
+.ms_1 {
+  text-align: center;
+}
+
+.ms1 p {
+  margin-top: 15px;
+  font-size: 19px;
+  text-indent: 2em;
+}

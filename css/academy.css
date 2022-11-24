@@ -1,0 +1,227 @@
+/* 院系设置 css */
+
+.main_area {
+  position: relative;
+  /* height: 600px; */
+}
+
+/* 页面板块名 */
+
+.item_title {
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: #fff;
+  /* background-color: rgba(0, 47, 123, 0.6); */
+  background-color: rgba(241, 160, 19, 0.6);
+}
+
+/* tab栏 */
+
+.tab {
+  position: relative;
+}
+
+/* .item .icon {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} */
+
+.tab_list {
+  position: relative;
+  float: left;
+  width: 280px;
+  height: 470px;
+  background-color: #ebf4ff;
+  /* background-color: rgba(200, 127, 0, 0.6); */
+}
+
+.tab_list ul {
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.tab_list ul li {
+  width: 260px;
+  height: 60px;
+  background-color: #dee2eb;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+  border-left: 4px solid #002f7b;
+  transition: all 0.5s;
+}
+
+.tab_list ul li:hover {
+  background-color: #002f7b;
+  color: #fff;
+}
+
+/* .tab_list ul li::after {
+    content: '\e903';
+    position: absolute;
+    right: 10px;
+    font-family: 'icomoon';
+    font-size: 25px;
+} */
+
+.tab_list ul .current {
+  background-color: #002f7b;
+  color: #fff;
+}
+
+.tab_icon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 100px;
+}
+
+.tab_icon img {
+  width: 100px;
+  height: 100px;
+  transition: all 1s;
+}
+
+.tab_icon img:hover {
+  /* 顺时针旋转360度并放大为原来的1.1倍 */
+  transform: rotate(360deg) scale(1.1);
+}
+
+.tab_con {
+  float: right;
+  margin-left: 20px;
+  width: 1100px;
+  height: 470px;
+}
+
+.item {
+  display: none;
+}
+
+.item .tab_con_title {
+  width: 1100px;
+  height: 70px;
+  border-bottom: 2px solid #002f7b;
+  font-size: 25px;
+  line-height: 70px;
+  color: #002f7b;
+}
+
+.item .tab_con_info {
+  font-size: 16px;
+}
+
+/* 二级学院 */
+
+.tab_con_info {
+  width: 1100px;
+  height: 400px;
+  background-color: #ebf4ff;
+}
+
+.xueyuan {
+  padding-left: 70px;
+  width: 1000px;
+  height: 160px;
+  /* background-color: orange; */
+}
+
+.xueyuan ul li {
+  margin-top: 50px;
+  width: 25%;
+  float: left;
+}
+
+.xueyuan ul li:nth-child(n + 5) {
+  margin-top: 50px;
+}
+
+.xueyuan ul li .xueyuan_icon {
+  float: left;
+  display: block;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  border-radius: 50%;
+  /* 过渡 */
+  transition: all 0.5s;
+}
+
+.xueyuan ul li .xueyuan_icon .tm {
+  margin-left: 3px;
+}
+
+.xueyuan ul li .dianq {
+  background-color: #611f66;
+}
+
+.xueyuan ul li .jingj {
+  background-color: #9dc814;
+}
+
+.xueyuan ul li .jianz {
+  background-color: #0075c2;
+}
+
+.xueyuan ul li .yis {
+  background-color: #e60012;
+}
+
+.xueyuan ul li .tum {
+  background-color: #c0104d;
+}
+
+.xueyuan ul li .jian {
+  background-color: #823e94;
+}
+
+.xueyuan ul li .renw {
+  background-color: #941a65;
+}
+
+.xueyuan ul li .jix {
+  background-color: #ea5514;
+}
+
+.xueyuan ul li .xueyuan_icon img {
+  width: 40px;
+  height: 40px;
+}
+
+.xueyuan ul li .xueyuan_icon:hover {
+  /* 顺时针旋转360度并放大为原来的1.1倍 */
+  transform: rotate(360deg) scale(1.1);
+}
+
+.xueyuan ul li .xueyuan_icon .dian {
+  margin-left: -5px;
+}
+
+.xueyuan ul li .xueyuan_name {
+  float: left;
+  display: block;
+  width: 140px;
+  height: 60px;
+  /* background-color: blue; */
+  font-size: 16px;
+  color: #333;
+  line-height: 60px;
+  padding-left: 15px;
+}

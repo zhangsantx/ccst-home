@@ -9,6 +9,10 @@
   font-style: normal;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 /* 版心 */
 
 .w {
@@ -67,7 +71,7 @@
   position: absolute;
   top: 10px;
   left: 60px;
-  width: 300px;
+  width: 320px;
   height: 100px;
   line-height: 100px;
 }
@@ -684,30 +688,34 @@ em {
 /* 快速链接部分 */
 
 .quick_links {
-  height: 150px;
+  width: 100%;
+  margin: 0 auto;
   margin-top: 40px;
   padding: 0 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.quick_links ul {
+  display: flex;
+  flex-wrap: wrap;
+}
 .quick_links ul li {
-  float: left;
   width: 100px;
   height: 150px;
   text-align: center;
   padding-top: 10px;
   transition: padding 0.5s;
+  margin: 0 22px;
 }
 
 .quick_links ul li:hover {
   padding-top: 0;
 }
 
-.quick_links ul li:nth-child(-n + 8) {
-  margin-right: 45px;
-}
+/* .quick_links ul li:nth-child(-n + 8) {
+  margin: 20px;
+} */
 
 .link_icon {
   display: block;
@@ -732,17 +740,30 @@ em {
 /* 底部区域 */
 
 .footer {
+  width: 100%;
   margin-top: 20px;
   height: 220px;
   background-color: #002f7b;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.footer .w {
+.footer-content {
+  width: 90vw;
   height: 165px;
   padding-top: 50px;
   padding-bottom: 15px;
   /* background-color: pink; */
   border-bottom: 1px solid #fff;
+  margin: 0 auto;
+}
+
+.footer-info {
+  width: 100%;
+  margin: 0 auto;
+  /* display: flex; */
+  /* justify-content: space-between; */
 }
 
 .footer_logo {

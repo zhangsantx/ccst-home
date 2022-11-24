@@ -21,7 +21,7 @@ window.addEventListener('load', function () {
         // goback.style.padding = '8px 10px'
     })
     goback.addEventListener("mouseout", function () {
-        gobackarea.innerHTML = '<img src="images/backtotop.png" alt="">';
+        gobackarea.innerHTML = '<img src="../images/backtotop.png" alt="">';
         // goback.style.padding = '10px 10px'
 
     })

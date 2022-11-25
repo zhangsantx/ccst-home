@@ -1,71 +1,71 @@
 /* academynews 媒体城科 css */
 
 .main_area {
-    position: relative;
-    height: 600px;
+  position: relative;
+  height: 600px;
 }
 
 /* 页面板块名 */
 
 .item_title {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    width: 280px;
-    height: 100px;
-    text-align: center;
-    line-height: 100px;
-    font-size: 30px;
-    color: #fff;
-    /* background-color: rgba(0, 47, 123, 0.6); */
-    background-color: rgba(241, 160, 19, 0.6);
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 280px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  color: #fff;
+  /* background-color: rgba(0, 47, 123, 0.6); */
+  background-color: rgba(241, 160, 19, 0.6);
 }
 
 /* 新闻 */
 
 .news_area_title {
-    height: 50px;
-    font-size: 25px;
-    line-height: 50px;
-    border-bottom: 2px solid #002f7b;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    color: #002f7b;
+  height: 50px;
+  font-size: 25px;
+  line-height: 50px;
+  border-bottom: 2px solid #00366f;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  color: #00366f;
 }
 
 .news_area {
-    float: left;
-    width: 1150px;
-    height: 600px;
+  float: left;
+  width: 1150px;
+  height: 600px;
 }
 
 .news_area ul li {
-    width: 1150px;
-    height: 50px;
-    /* border-bottom: 1px solid #bfbfbf; */
-    border-bottom: 1px dotted #bfbfbf;
-    line-height: 50px;
-    margin-bottom: 5px;
-    padding: 0 20px;
-    border-left: 5px solid #002f7b;
-    transition: all 0.5s;
+  width: 1150px;
+  height: 50px;
+  /* border-bottom: 1px solid #bfbfbf; */
+  border-bottom: 1px dotted #bfbfbf;
+  line-height: 50px;
+  margin-bottom: 5px;
+  padding: 0 20px;
+  border-left: 5px solid #00366f;
+  transition: all 0.5s;
 }
 
 .news_area ul li:hover {
-    box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
-    border-bottom: none;
+  box-shadow: 0px 0px 10px 8px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
 }
 
 .news_area ul li h3 {
-    float: left;
-    font-size: 18px;
-    font-weight: 400;
+  float: left;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .news_area ul li h4 {
-    float: right;
-    font-size: 18px;
-    font-weight: 400;
+  float: right;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 /* 换页按钮 
@@ -88,7 +88,7 @@
     font-size: 16px;
     text-align: center;
     line-height: 40px;
-    color: #002f7b;
+    color: #00366f;
     transition: all 0.5s;
 }
 
@@ -97,56 +97,56 @@
 }
 
 .news_area_pagebtn ol button:hover {
-    background-color: #002f7b;
+    background-color: #00366f;
     color: #fff;
 } */
 
 /* 快速链接 */
 
 .news_links {
-    float: right;
-    width: 230px;
-    height: 510px;
-    /* background-color: orange; */
-    margin-top: 66px;
-    border: 1px solid #002f7b;
+  float: right;
+  width: 230px;
+  height: 510px;
+  /* background-color: orange; */
+  margin-top: 66px;
+  border: 1px solid #00366f;
 }
 
 .news_links_title {
-    width: 230px;
-    height: 70px;
-    background-color: #002f7b;
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
-    line-height: 70px;
+  width: 230px;
+  height: 70px;
+  background-color: #00366f;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 70px;
 }
 
 .news_links ul li {
-    float: left;
-    width: 110px;
-    height: 130px;
-    /* background-color: pink; */
-    margin-top: 10px;
-    margin-left: 3px;
-    text-align: center;
-    padding-top: 15px;
-    transition: all 0.5s;
+  float: left;
+  width: 110px;
+  height: 130px;
+  /* background-color: pink; */
+  margin-top: 10px;
+  margin-left: 3px;
+  text-align: center;
+  padding-top: 15px;
+  transition: all 0.5s;
 }
 
 .news_links ul li:hover {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .news_links ul li img {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
 }
 
 .news_links ul li em {
-    display: block;
-    font-size: 16px;
-    width: 110px;
-    height: 20px;
-    line-height: 20px;
+  display: block;
+  font-size: 16px;
+  width: 110px;
+  height: 20px;
+  line-height: 20px;
 }

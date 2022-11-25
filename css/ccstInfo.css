@@ -60,12 +60,12 @@
   color: #333;
   text-align: center;
   line-height: 60px;
-  border-left: 4px solid #002f7b;
+  border-left: 4px solid #00366f;
   transition: all 0.5s;
 }
 
 .tab_list ul li:hover {
-  background-color: #002f7b;
+  background-color: #00366f;
   color: #fff;
 }
 
@@ -78,7 +78,7 @@
 } */
 
 .tab_list ul .current {
-  background-color: #002f7b;
+  background-color: #00366f;
   color: #fff;
 }
 
@@ -117,10 +117,10 @@
 .item .tab_con_title {
   width: 1100px;
   height: 70px;
-  border-bottom: 2px solid #002f7b;
+  border-bottom: 2px solid #00366f;
   font-size: 25px;
   line-height: 70px;
-  color: #002f7b;
+  color: #00366f;
 }
 
 .item .tab_con_info {
